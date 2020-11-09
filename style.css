@@ -1,0 +1,44 @@
+body {
+    background-image: url("76.jpg");
+}
+
+h1 {
+    background-color: rgba(245, 222, 179, 0.801)
+    color: blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 15px;
+    color: rgb(23, 24, 29);
+    text-indent: 1%;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+.myDiv {
+    background-color: rgba(155, 247, 247, 0.151);
+}
+
+.p2Div {
+    background-color: rgba(245, 245, 245, 0.137);
+    width: 70%;
+    border: 10px solid grey;
+    padding: 20px;
+    margin: 2%;
+}
+
+/* unvisited link */
+a:link {
+    color: red
+}
+/* visited link */
+a:visited {
+    color: sandybrown;
+}
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}

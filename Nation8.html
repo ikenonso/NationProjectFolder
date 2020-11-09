@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <p style="font-family: georgia; font-size: 150%; color: rgb(253, 249, 249);text-align: center;">HTML FORMS</p>
+        <title>
+            Forms
+        </title>
+        
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!-- <h1>Run</h1> -->
+
+        <form action="/action_page.php" target="_blank" method="GET" autocomplete="off" novalidate>
+            <fieldset>
+                <legend>Personalia</legend>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="Nick"><br>
+                <label for="fname">Last name:</label><br>
+                <input type="text" id="fname" name="fname" value="Nation"><br>
+                <label for="birthday">Birthday:</label><br>
+                <input type="date" id="birthday" name="birthday"><br>
+                <label for="email">Enter your email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">male</label><br><br>
+                <input type="submit" value="submit">
+                <input type="reset"><br>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Others</legend>
+                <input type="checkbox" id="vehicle1" name="vechicle1" value="Car">
+                <label for="vehicle1"> I have a Car</label><br>
+                <label for="cars"> Choose a car:</label>
+                <select id="cars" name="cars" size="4" multiple>
+                    <option value="Mercedes Benz">Mercedes Benz</option>
+                    <option value="Ferrari">Ferrari</option>
+                    <option value="lamborghini">lamborghini</option>
+                    <option value="Audi">Audi</option>
+                </select><br><br>
+                <textarea name="message" rows="10" cols="20">The color of the Benz is black</textarea>
+                <br><br>
+                <input type="submit"><br>
+                <input list="browsers" name="browser">
+                <datalist id="browsers">
+                    <option value="Internet Explorer"></option>
+                    <option value="Firefox"></option>
+                    <option value="Chrome"></option>
+                    <option value="Opera"></option>
+                    <option value="Safari"></option>
+                </datalist><br>
+                <label for="favcolor">Select your favorite color:</label><br>
+                <input type="color" id="favcolor" name="favcolor" value="#pink">
+                <input type="submit" value="submit">
+            </fieldset>
+        </form>
+
+        <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            0
+            <input type="range" id="a" name="a" value="50">
+            100 +
+            <input type="number" id="b" name="b" value="50">
+            =
+            <output name="x" for="a b"></output>
+            <br><br>
+            <input type="submit">
+        </form>  
+    </body>
+</html> 
