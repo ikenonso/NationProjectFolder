@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+    
+.header {
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0px;
+    left: -0.1%;
+    background-color: white;
+    box-shadow: 0px 10px 10px 5px rgb(0, 0, 0, 0.2);
+}
+#h2 {
+    font-weight: bold;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+}
+.Div {
+    background-color: rgba(0, 0, 0, 0.137);
+    width: 20%;
+    height: 20%;
+    border : 7px solid white;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    color: white;
+}
+#demo1 {
+    font-size: 500%;
+    display: inline;
+}
+#demo2 {
+    font-size: 500%;
+    display: inline;
+
+}
+#demo3 {
+    font-size: 250%;
+    display: inline;
+}
+.colon {
+    font-size: 500%;
+    display: inline;
+}
+#demo4 {
+    font-size: 150%;
+    display: inline;
+}
+#demo5 {
+    font-size: 150%;
+    display: inline;
+}
+#demo6 {
+    font-size: 150%;
+    display: inline;
+}
+#demo {
+    font-size: 150%;
+    display: inline;
+}
+.comma {
+    font-size: 150%;
+    display: inline;
+}

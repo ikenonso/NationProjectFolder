@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+    color: rgb(243, 240, 240);
+  }
+  .stopwatch {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+    position: absolute;
+    top: 20%;
+  }
+  .time {
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;
+    font-size: 150px;
+  }
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    width: 187px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  #playButton {
+    display: block;
+  }
+  
+  #pauseButton {
+    display: none;
+  }
